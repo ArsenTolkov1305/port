@@ -96,7 +96,7 @@ p {
 
  @media screen and (min-width: 1158px) {
     .pager {
-        width: 680px;
+        width: 1000px;
         margin-right: 20px;
         margin-left: 20px;
     }
