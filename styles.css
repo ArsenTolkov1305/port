@@ -56,13 +56,18 @@ p {
     }
 } */
  img {
-    display: block;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     width: 320px;
     height: 280px;
     border-radius: 20px;
+<<<<<<< HEAD
     margin-bottom: 15px;
+=======
+    justify-content: center;
+    align-items: center;
+>>>>>>> babff48788c7ff6e185c86c4b32e50888c5cd07f
  }
 
  @media screen and (min-width: 768px) {
@@ -91,6 +96,9 @@ p {
     margin-bottom: 20px;
     padding-bottom: 20px;
     opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
  @media screen and (min-width: 768px) {
     .pager {
@@ -100,7 +108,7 @@ p {
 
  @media screen and (min-width: 1158px) {
     .pager {
-        width: 680px;
+        width: 1000px;
         margin-right: 20px;
         margin-left: 20px;
     }
