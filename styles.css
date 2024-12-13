@@ -43,9 +43,9 @@ p {
     letter-spacing: 0.05em;
         font-family: "Open sans", sans-serif;
         margin-left: 20px;
-        /* max-width: 300px; */
+        max-width: 300px;
 }
-/* @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
     p {
         max-width: 740px;
     }
@@ -54,7 +54,7 @@ p {
     p {
         max-width: 1120px;
     }
-} */
+} 
  img {
     display: flex;
     margin-right: auto;
@@ -62,14 +62,10 @@ p {
     width: 320px;
     height: 280px;
     border-radius: 20px;
-<<<<<<< HEAD
-    margin-bottom: 15px;
-=======
-    justify-content: center;
+    margin-bottom: 20px;
     align-items: center;
->>>>>>> babff48788c7ff6e185c86c4b32e50888c5cd07f
- }
-
+    justify-content: center;
+ }    
  @media screen and (min-width: 768px) {
     img {
         width: 708px;
